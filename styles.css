@@ -1,0 +1,71 @@
+body {
+    background-image: url('images/app bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #333; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #FFFFFF; 
+}
+
+#search-form {
+    margin-bottom: 20px;
+}
+
+#city-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+button[type="submit"] {
+    background-color: #4CAF50; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #3e8e41; 
+}
+
+#weather-data {
+    margin-top: 20px;
+}
+
+.weather-card {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.weather-card h2 {
+    margin-top: 0;
+}
+
+.weather-card p {
+    margin-bottom: 10px;
+}
+
+#weather-data {
+    color: #FFFFFF; 
+  }
+
+  button[type="submit"] {
+    margin-top: 10px; 
+  }  
